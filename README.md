@@ -9,7 +9,6 @@ Pour l’utiliser, voici la marche à suivre :
 
 Clonez le dépôt :
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/nshutifidele23-cmd/Outil-de-comparaison-de-techno-pour-PGE.git)
-cd VOTRE_DÉPÔT
 
 Installez les dépendances :
 pip install numpy pandas matplotlib openpyxl
