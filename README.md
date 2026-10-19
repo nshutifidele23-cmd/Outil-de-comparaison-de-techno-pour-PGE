@@ -5,6 +5,8 @@ J'ai créé ce script pour nous aider à comparer les technologies et les param�
 L'objectif est de simplifier notre travail, de limiter le recours à l'IA, qui pourrait induire en erreur, et de garantir une analyse approfondie.
 Dans la lignée de l’open source, il s’agit ici de la version V1 et je vous invite à y apporter les modifications nécessaires afin que nous puissions les intégrer et continuer à nous entraider.
 
+J’ai ajouté un petit exemple qui compare la consommation par débit de données pour un module LoRa et un module optique.
+
 Pour l’utiliser, voici la marche à suivre : 
 
 Clonez le dépôt :
