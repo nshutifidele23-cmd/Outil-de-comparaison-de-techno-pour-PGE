@@ -13,14 +13,14 @@ FILE          = "communication_long_distance.xlsx"  #le nom du fichier
 X_LABEL       = "vitesse données (kbps)" # le nom de x axis
 Y_LABEL       = "Consommation moyenne (mW)" # le nom de y axis
 X_MIN, X_MAX  = 1, 20 #plage de fonctionnement
-WORKING_POINT = 5  #point de fonctionnement souhaiter
+WORKING_POINT = 10  #point de fonctionnement souhaiter
 
 def model(x, a, b):          # l'equation pour relier les 2  colones Excels (à adapter par cas)
     return b + a/x
 
 #pour cette exemple a = (Ptransmission - Psleep)*nombre des bits/(1000*Le temps)
 #                   b = Psleep
-#ref: https://www.ti.com/document-viewer/lit/html/SNAA352?utm_source=chatgpt.com
+#ref: https://www.ti.com/document-viewer/lit/html/SNAA352?utm
 
 df = pd.read_excel(FILE)  # lire le fichier 
 print(df.columns.tolist())
